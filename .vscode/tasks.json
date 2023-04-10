@@ -1,0 +1,76 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/MyRPIApp/MyRPIApp.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+       
+        {
+            "label": "publish",
+            "command": "dotnet publish ${workspaceFolder}/MyRPIApp -r linux-arm64 -o ${workspaceFolder}/MyRPIApp/bin/arm",
+            "type": "shell",
+            "problemMatcher": [],
+            //"dependsOn": "clear"
+            "dependsOn": "build"
+        },
+        {
+            "label": "deploy",
+            "command": "scp -r ${workspaceFolder}/MyRPIApp/bin/arm pi@192.168.2.111:/home/pi/MyRPIApp",
+            "dependsOn": "publish",
+            "type": "shell",
+            "problemMatcher": []
+        }
+        
+    ]
+}
+/*
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/MyRPIApp/MyRPIApp.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/MyRPIApp/MyRPIApp.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/MyRPIApp/MyRPIApp.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}*/

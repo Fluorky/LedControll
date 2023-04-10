@@ -1,0 +1,17 @@
+/Users/maciej/LedControll/MyRPIApp/bin/Debug/net7.0/MyRPIApp
+/Users/maciej/LedControll/MyRPIApp/bin/Debug/net7.0/MyRPIApp.deps.json
+/Users/maciej/LedControll/MyRPIApp/bin/Debug/net7.0/MyRPIApp.runtimeconfig.json
+/Users/maciej/LedControll/MyRPIApp/bin/Debug/net7.0/MyRPIApp.dll
+/Users/maciej/LedControll/MyRPIApp/bin/Debug/net7.0/MyRPIApp.pdb
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.csproj.AssemblyReference.cache
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.AssemblyInfoInputs.cache
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.AssemblyInfo.cs
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.csproj.CoreCompileInputs.cache
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.dll
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/refint/MyRPIApp.dll
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.pdb
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.genruntimeconfig.cache
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/ref/MyRPIApp.dll
+/Users/maciej/LedControll/MyRPIApp/bin/Debug/net7.0/System.Device.Gpio.dll
+/Users/maciej/LedControll/MyRPIApp/obj/Debug/net7.0/MyRPIApp.csproj.CopyComplete

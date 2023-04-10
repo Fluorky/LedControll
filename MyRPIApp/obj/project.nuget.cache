@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "eo4ysGf3jgh7h685en/QT4axKKUMv3eZEpe8DBUJo1x0YoTSRX4MYQIOBGe8XBfpHTpupL5xswK8ZsLNyPoWWA==",
+  "success": true,
+  "projectFilePath": "/Users/maciej/LedControll/MyRPIApp/MyRPIApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/maciej/.nuget/packages/system.device.gpio/2.3.0-prerelease.22520.10/system.device.gpio.2.3.0-prerelease.22520.10.nupkg.sha512",
+    "/Users/maciej/.nuget/packages/microsoft.netcore.app.runtime.linux-arm64/7.0.4/microsoft.netcore.app.runtime.linux-arm64.7.0.4.nupkg.sha512",
+    "/Users/maciej/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-arm64/7.0.4/microsoft.aspnetcore.app.runtime.linux-arm64.7.0.4.nupkg.sha512",
+    "/Users/maciej/.nuget/packages/microsoft.netcore.app.host.linux-arm64/7.0.4/microsoft.netcore.app.host.linux-arm64.7.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

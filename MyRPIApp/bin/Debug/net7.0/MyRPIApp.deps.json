@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MyRPIApp/1.0.0": {
+        "dependencies": {
+          "System.Device.Gpio": "2.3.0-prerelease.22520.10"
+        },
+        "runtime": {
+          "MyRPIApp.dll": {}
+        }
+      },
+      "System.Device.Gpio/2.3.0-prerelease.22520.10": {
+        "runtime": {
+          "lib/net6.0/System.Device.Gpio.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.300.22.52010"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyRPIApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Device.Gpio/2.3.0-prerelease.22520.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2MSmZBXV9pyMTMsmpFRJ5ZS8HbSFIuTcUkCpxUPKJgDuWpocx3Uc0vrrhvMtTKWpfj3WeDTV4s7+aII0ekbsRg==",
+      "path": "system.device.gpio/2.3.0-prerelease.22520.10",
+      "hashPath": "system.device.gpio.2.3.0-prerelease.22520.10.nupkg.sha512"
+    }
+  }
+}
